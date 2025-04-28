@@ -1,0 +1,16 @@
+/* comentario css*/
+header{
+    background-color: darksalmon;
+}
+
+/* selector por id */
+#p2 {
+    color: darkseagreen;
+    font-size: 1.5em;  /* tamaño de fuente*/
+    text-align: center;
+    font-weight: 900;
+}
+
+/* . clase
+# id
+*/

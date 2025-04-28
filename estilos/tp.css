@@ -1,0 +1,10 @@
+.encabezado {  
+   text-align: center;  
+    text-transform: uppercase;  
+    font-weight: bold;  
+    font-size: 42px;
+    color: rgba(167, 214, 140, 0.836);
+}
+h2{
+    color: rgb(127, 255, 202);
+}

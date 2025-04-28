@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+</head>
+
+<body>
+    <header>
+        <h1>Practica inicial de CSS</h1>
+        <h2>Estructura basica de CSS</h2>
+    </header>
+    <main>
+        <p>1/ CSS significa "Hojas de Estilo en Cascada"</p>
+        <p>2/ se utiliza para definir el estilo y la apariencia visual de un documento HTML y el que lo interpreta es el
+            navegador web</p>
+        <p>3 y 4/ cada usuario define las reglas que especifican los grupos de estilos que van a aplicarse a elementos
+            particulares o grupos de elementos de la página web. la regla se abre con un selector. Este selecciona el
+            elemento HTML que vamos a diseñar. En este caso, diseñaremos encabezados de nivel uno </p>
+        <img src="./assets/css.png" alt="css" width="150px">
+        <p>1.5/ Un selector nos permitirá aplicar estilos a elementos específicos de HTML. De esta forma es posible ser
+            preciso al momento de aplicar diseño a un sitio web.</p>
+        <p>1.6/ Selector de ID
+            Este tipo de selector es igual al de clase, aunque lo aplicaremos a un único elemento HTML de nuestra
+            página. Esto se debe a que el atributo ID de HTML identifica a un elemento HTML por medio de un nombre</p>
+
+        <p>Selector de clases
+            Los selectores de clases comienzan siempre por un . (punto). Los clientes web (navegadores) identifican este
+            punto y lo distinguen del resto de los selectores.</p>
+
+        <p>Selector universal
+            Nos permite aplicar estilos a todos los elementos HTML de un documento y se indica mediante el *.</p>
+
+        <p>Selector por etiquetas
+            Aplicamos propiedades CSS a una etiqueta. La misma se identifica sin utilizar >.</p>
+        <p>Selector descendente
+            Con este selector seleccionamos un elemento que está dentro de otro del mismo tipo. Estos seectores siempre
+            están formados por dos o más selectores separados entre si. El último selector será el elemento HTML al que
+            se le aplicará las propiedades de CSS.</p>
+        <p>Selector descendente
+            Con este selector seleccionamos un elemento que está dentro de otro del mismo tipo. Estos seectores siempre
+            están formados por dos o más selectores separados entre si. El último selector será el elemento HTML al que
+            se le aplicará las propiedades de CSS.</p>
+
+        <p>1.7/ el css funciona:</p>
+        <ol>
+            <li>el navegador carga el HTML</li>
+            <li>se transforma el html en dom</li>
+            <li>el navegador busca los archivos vinculados al documento</li>
+            <li>el navegador analiza el css para ordenarlo segun sus reglas y selectores</li>
+            <li>el arbol de renderizacion dee la estructura en la que se debe aparecer la pagina lueg9o analizar sus
+                reglas</li>
+            <li>ultimo la pagina se muestra en pantalla</li>
+        </ol>
+        <p>1.8/ las 3 maneras son:
+            1-Utilizando un atributo "style"
+            2-Utilizando la etiqueta "style"
+            3-Utilizando un archivo propio de css,es decir, con extension .css</p>
+
+        <p>1.9/ Si son iguales en el html pero son diferentes en el css,es decir que cambia el estilo.
+
+            https://csszengarden.com/196/
+            https://csszengarden.com/195/
+
+            No son los mismos ya que cada uno tiene un estilo propio.
+            Si,el mismo html puede verse distinto gracias al css, el cual cambia el estilo de la pagina.
+        </p>
+
+        <table>
+            <th>Propiedad</th>
+            <th>Descripcion</th>
+            <th>Valores posibles</th>
+            <tr>
+                <td>color</td>
+                <td>Define el color del texto.</td>
+                <td>
+                    color: currentcolor;<br>
+                    color: #090;<br>
+                    color: rgb(34, 12, 64);
+                </td>
+            </tr>
+            <tr>
+                <td>background-color</td>
+                <td>Define el color de fondo de un elemento</td>
+                <td>
+                    background-color: indigo;<br>
+                    background-color: hsl(50 33% 25%);<br>
+                    background-color: revert;
+                </td>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td>Define el tamaño de la fuente del texto.</td>
+                <td>
+                    font-size: small;<br>
+                    font-size: larger;<br>
+                    font-size: 80%;
+                </td>
+            </tr>
+            <tr>
+                <td>font-weight</td>
+                <td>Define el grosor de la fuente del texto (por ejemplo, si se trata de texto en negrita o normal).
+                </td>
+                <td>
+                    font-weight: 500;<br>
+                    font-weight: bolder;<br>
+                    font-weight: revert;
+                </td>
+            </tr>
+            <tr>
+                <td>font-style</td>
+                <td>Define el estilo de la fuente del texto (por ejemplo, si es cursiva o normal).</td>
+                <td>
+                    font-style: italic;<br>
+                    font-style: oblique;<br>
+                    font-style: revert-layer;
+                </td>
+            </tr>
+            <tr>
+                <td>font-family</td>
+                <td>Define el tipo de letra a utilizar para el texto</td>
+                <td>
+                    font-family: sans-serif;<br>
+                    font-family: inherit;<br>
+                    font-family: monospace;
+                </td>
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td>Define la alineación horizontal del texto (izquierda, centro o derecha)</td>
+                <td>
+                    text-align: right;<br>
+                    text-align: -webkit-center;<br>
+                    text-align: revert-layer;
+
+                </td>
+            </tr>
+            <tr>
+                <td>text-decoration</td>
+                <td>Define la decoración del texto (por ejemplo, si está subrayado o tachado)</td>
+                <td>
+                    text-decoration: none;<br>
+                    text-decoration: inherit;<br>
+                    text-decoration: initial;
+                </td>
+            </tr>
+            <tr>
+                <td>text-transform</td>
+                <td>Define la transformación del texto (por ejemplo, en mayúsculas o minúsculas).</td>
+                <td>
+                    text-transform: full-size-kana;<br>
+                    text-transform: math-auto;<br>
+                    text-transform: inherit;
+                </td>
+            </tr>
+            <tr>
+                <td>letter-spacing</td>
+                <td>Define el espacio entre letras.</td>
+                <td>
+                    letter-spacing: normal;<br>
+                    letter-spacing: 0.3em;<br>
+                    letter-spacing: unset;
+                </td>
+            </tr>
+            <tr>
+                <td>line-height</td>
+                <td>Define la altura de línea del texto.</td>
+                <td>
+                    line-height-step: 18pt;<br>
+                    line-height-step: inherit;<br>
+                    line-height-step: initial;
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>Nombre: Mia</p>
+        <p>Apellido: Abojer</p>
+        <p>Curso: 4to 1ra</p>
+    </footer>
+</body>
+
+</html>
