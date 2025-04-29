@@ -1,0 +1,74 @@
+/* Estilos para la página web */
+
+body {
+    background-color: #bfd3c9;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-size: 36px;
+    color: #535a53;
+}
+
+p {
+    color: rgb(177, 128, 54);
+}
+
+.encabezado {
+    background-color: rgba(127, 255, 212, 0.384);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+    color: rgba(124, 136, 117, 0.836);
+}
+
+.parrafo {
+    color: black;
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+#fondo {
+    background-color: #a3c0af;
+}
+
+p a {
+    color: cornflowerblue;
+}
+
+.a {
+    color: #b32f2f;
+}
+.b {
+    background-color: aqua;
+}
+.c {
+    font-size: medium;
+}
+.d {
+    font-weight: 900;
+}
+.e {
+    font-style: oblique;
+}
+.f {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.g {
+    text-align: end;
+}
+.h {
+    text-decoration: overline;
+}
+.i {
+    text-transform: none;
+}
+.j {
+    letter-spacing: 0cm;
+}
+.k {
+    line-height: 0%;
+}
